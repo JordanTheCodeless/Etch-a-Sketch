@@ -13,11 +13,12 @@
     </header>
     <main>
     <div id="gameBtnsDiv">
-        <button id="resetBtn">Reset</button>
-        <label for="gridSize">Enter New Grid Size By Columns</label>
-        <input type="text" title="gridSize" id="gridSizeInput">
+      <label for="gridSize">Enter New Grid Size By Columns</label>
+      <input type="number"title="gridSize" min="12" max="100" placeholder="16" id="gridSizeInput">
+      <button id="enterBtn">Enter</button>
     </div>
-      <div id="container"></div>
+    <div id="container"></div>
+    <button id="resetBtn">Reset</button>
     </main>
   </body>
 </html>
