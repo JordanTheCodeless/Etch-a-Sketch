@@ -19,7 +19,6 @@ body{
 
 }
 .grid{
-
     border:1px solid rgba(125, 118, 118, 0.567);
 }
 #gameBtnsDiv{
@@ -35,6 +34,7 @@ button{
     color: white;
     border: 2px white solid;
     border-radius: 5px;
+    justify-self: flex-end;
 }
 /* .grid:hover{
     background-color: black;
